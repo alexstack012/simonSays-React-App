@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+
+}
+
+.App-header {
+  background-color: #090910;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+  
+}
+
+.title{
+
+}
+
+.colorCard {
+  height: 200px;
+  width: 200px;
+  
+}
+
+.cardWrapper {
+  display: flex;
+  width: 450px;
+  flex-wrap: wrap;
+  
+}
+
+.startButton {
+  position: absolute;
+  width: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 50%;
+  font-size: 30px;
+  margin-top: 144px;
+  background-color: black;
+  color: whitesmoke;
+  font-family: monospace;
+  margin-right: 31px;
+}
+
+.score {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+  line-height: 100px;
+  font-size: 50px;
+  margin-top: 144px;
+  margin-right: 31px;
+}
+
+.lost {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  border-radius: 50%;
+  line-height: 100px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 144px;
+  margin-right: 31px;
+}
+.flash.flash {
+  border: 3px solid white;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.red {
+  background-color: red;
+  &.flash {
+    background-color: rgb(255, 125, 125);
+    border-top-right-radius: 175px;
+    margin: 5px;
+  }
+  border-top-right-radius: 175px;
+  margin: 5px;
+}
+
+.blue {
+  background-color: blue;
+  &.flash {
+    background-color: rgb(125, 125, 255);
+    border-bottom-right-radius: 175px;
+    margin: 5px;
+  }
+  border-bottom-right-radius: 175px;
+  margin: 5px;
+}
+
+.green {
+  background-color: green;
+  &.flash {
+    background-color: rgb(125, 255, 125);
+    border-top-left-radius: 175px;
+    margin: 5px;
+  }
+  border-top-left-radius: 175px;
+  margin: 5px;
+}
+
+.yellow {
+  background-color: yellow;
+  &.flash {
+    background-color: rgb(255, 255, 125);
+    border-bottom-left-radius: 175px;
+    margin: 5px;
+  }
+  border-bottom-left-radius: 175px;
+  margin: 5px;
+}
